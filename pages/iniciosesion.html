@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Plays</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+
+        <nav class="navbar">
+            <h1 href="../index.html" class="logo">GG GAMES</h1>
+
+            <label class="labe_hamburguesa" for="menu_hamburguesa">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list-icon"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </label>
+            <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+            <ul class="ul_links">
+
+                <li class="li_links"> <a class="link" href="../index.html">INICIO</a></li>
+                <li class="li_links"> <a class="link" href="#">ACERCA DE</a></li>
+                <li class="li_links"> <a class="link" href="../pages/registrarse.html">REGISTRO</a></li>
+                <div class="bglogin">
+                    <li class="li_links"> <a class="link" href="../pages/iniciosesion.html">LOGIN</a></li>
+                </div>
+            </ul>
+
+        </nav>
+
+    </header>
+    <div class="background-image-container">
+        <img class="bgimg" src="../assets/img/bg.jpg">
+    </div>
+    <main>
+        <div>
+            <form id="loginForm" action="" method="post">
+                <h1>Iniciar Sesion</h1>
+                <div>
+                    <input type="email" class="ingreso" id="email" name="email" placeholder="Correo Electrónico">
+                    <div id="emailError" class="error-message"></div>
+                </div>
+                <div>
+                    <input type="password" class="ingreso" id="password" name="password" placeholder="Inicio Sesion">
+                    <div id="passwordError" class="error-message"></div>
+                </div>
+                <input type="submit" class="boton">
+            </form>
+        </div>
+        <script src="../js/login.js"></script>
+    </main>
+    <hr>
+
+    <footer class="footer-container">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="../pages/registrarse.html">Registro</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
